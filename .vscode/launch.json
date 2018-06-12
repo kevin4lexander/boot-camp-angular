@@ -1,0 +1,56 @@
+{
+    // GENERAL
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.projectDetection.disableDetect": true,
+    "vsicons.projectDetection.autoReload": true,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": 
+    false,
+    "html.format.wrapLineLength": 0,
+    "window.zoomLevel": 0,
+    "zenMode.centerLayout": false,
+    // EDITOR
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    // GIT
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    // TSLINT
+    "tslint.alwaysShowRuleFailuresAsWarnings": true,
+    "tslint.autoFixOnSave": true,
+    // SORT TYPESCRIPT IMPORTS
+    "typescript.extension.sortImports.sortOnSave": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // PRETTIER
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.arrowParens": "always",
+    "prettier.printWidth": 90,
+    // BEAUTIFY
+    "beautify.ignore": [
+      "**/**.js",
+      "**/**.ts"
+    ],
+    "beautify.language": {
+      "css": [
+        "css",
+        "scss"
+      ],
+    },
+    "beautify.config": {
+      "indent_size": 2,
+      "css": {
+        "newline_between_rules": true,
+        "space_around_combinator": true,
+        "selector_separator_newline": true
+      },
+      "html": {
+        "wrap_attributes": "force-aligned"
+      }
+    },
+  }
